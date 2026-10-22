@@ -281,3 +281,10 @@ footer p{margin:0}
 .langpick nav a[aria-current]{font-weight:600;color:var(--accent)}
 @media (max-width:640px){nav.lang{display:none}.langpick{display:block;margin-left:auto}}
 time{font-size:.94em}
+.guide h2{margin-top:40px}
+.guide h3{margin-top:28px}
+.guide pre{overflow-x:auto;padding:14px 16px;background:var(--surface2);border:var(--line-w) solid var(--line);border-radius:var(--r-sm);font-size:.9em;line-height:1.5}
+.guide code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+.guide .table-wrap{margin:16px 0}
+.guide ol,.guide ul{padding-left:1.3em}
+.guide li{margin:6px 0}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Move your travel days into Sojournal: CSV import from a spreadsheet or another app</title>
+<meta name="description" content="Import your days from a spreadsheet or another day tracker with a CSV file. Free, both ways. What the file needs, which dates and places work, and what to check after.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F0F3F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B111D" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mufa-tech.github.io/sojournal/switch/">
+<meta name="sojournal:languages" content="en">
+<link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/switch/">
+<link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/switch/">
+<link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<link rel="preload" href="../assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sojournal">
+<meta property="og:title" content="Move your travel days into Sojournal: CSV import from a spreadsheet or another app">
+<meta property="og:description" content="Import your days from a spreadsheet or another day tracker with a CSV file. Free, both ways. What the file needs, which dates and places work, and what to check after.">
+<meta property="og:url" content="https://mufa-tech.github.io/sojournal/switch/">
+<meta property="og:image" content="https://mufa-tech.github.io/sojournal/assets/og-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="../"><img src="../assets/mark.svg" alt="" width="30" height="30">Sojournal</a>
+<nav class="main" aria-label="Main"><a href="../schengen-calculator/">Schengen calculator</a><a href="../183-day-rule/">183-day rule</a><a href="../support/">Support</a></nav>
+<nav class="lang" aria-label="Language"><a href="../switch/" hreflang="en" lang="en" title="English" aria-current="true">EN</a><a href="../de/" hreflang="de" lang="de" title="Deutsch">DE</a><a href="../fr/" hreflang="fr" lang="fr" title="Français">FR</a><a href="../nl/" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="../it/" hreflang="it" lang="it" title="Italiano">IT</a><a href="../es/" hreflang="es" lang="es" title="Español">ES</a><a href="../tr/" hreflang="tr" lang="tr" title="Türkçe">TR</a></nav>
+<details class="langpick"><summary aria-label="Language: English"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18"/></svg>EN</summary><nav aria-label="Language"><a href="../switch/" hreflang="en" lang="en" aria-current="true">English</a><a href="../de/" hreflang="de" lang="de">Deutsch</a><a href="../fr/" hreflang="fr" lang="fr">Français</a><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a><a href="../it/" hreflang="it" lang="it">Italiano</a><a href="../es/" hreflang="es" lang="es">Español</a><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav></details>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<article class="prose guide">
+<h1>Bring your days with you</h1>
+<p>If you already keep your days somewhere, you don't have to type them again. Sojournal reads a CSV file: from a spreadsheet, from another day-tracker app, or from your own notes. <strong>CSV import is free</strong>, and so is CSV export, so your record never gets stuck in Sojournal either.</p>
+<p>Where to find it: <strong>More → Import from a spreadsheet</strong>.</p>
+<h2 id="what-the-file-needs">What the file needs</h2>
+<p>Two things: a <strong>date</strong> and a <strong>place</strong>. Either one row per day:</p>
+<pre><code>date,country
+2026-01-03,US-FL
+2026-01-04,US-FL
+2026-01-05,Canada</code></pre>
+<p>or one row per stay, with a start and an end date:</p>
+<pre><code>from,to,place,note
+2025-11-03,2026-04-10,Florida,Winter in Naples
+2026-05-12,2026-05-30,France,
+2026-06-01,2026-06-14,Portugal,Lisbon and Porto</code></pre>
+<p>That's it. A notes column is optional.</p>
+<p><strong>Column names.</strong> The first row can name the columns, and Sojournal recognises the usual words in English, German, French, Dutch, Italian, Spanish and Turkish: <em>date, day, from, to, start, end, arrival, departure, country, state, place, note</em>, and <em>Datum, von, bis, Land, Ort, date, pays, lieu, fecha, desde, hasta, país, datum, van, tot, plaats, data, dal, al, paese, tarih, ülke, giriş, çıkış</em> and so on. If there's no header row, it looks at what's in the columns instead.</p>
+<p><strong>Dates.</strong> These all work:</p>
+<ul><li><code>2026-06-14</code> (also with <code>/</code> or <code>.</code>), and date-times like <code>2026-06-14T10:00:00Z</code> (the date is taken as written)</li><li><code>14.06.2026</code> (always read as day first)</li><li><code>14/06/2026</code> or <code>06/14/2026</code> (also with <code>-</code>)</li></ul>
+<p>If a file has dates that could be read both ways, like <code>03/04/2026</code>, and nothing else in the file settles it, Sojournal asks you once how your dates are written. Two-digit years (<code>14/06/26</code>) aren't read; change the column to four-digit years first.</p>
+<p><strong>Places.</strong> Any of these:</p>
+<ul><li>country codes: <code>FR</code>, <code>DE</code>, <code>US</code></li><li>state and province codes: <code>US-NY</code>, <code>US-FL</code>, <code>CA-ON</code></li><li>plain US state codes in a column of states: <code>FL</code>, <code>NY</code>, <code>AZ</code></li><li>names in any of the seven app languages: <code>France</code>, <code>Deutschland</code>, <code>New York</code>, <code>Türkiye</code></li><li>common short forms: <code>USA</code>, <code>UK</code>, <code>England</code>, <code>Holland</code></li></ul>
+<p>A value Sojournal can't match for sure is never guessed. It shows up under <strong>Places in the file</strong>; tap it and pick the place, and the choice applies to every row with that value.</p>
+<p><strong>File details.</strong> Comma, semicolon and tab separators are detected on their own. UTF-8, Excel's &quot;Unicode text&quot; and older Windows files all open.</p>
+<h2 id="what-happens-on-import">What happens on import</h2>
+<ul><li>You see the result before anything is saved: new days, days you already have, rows without a place yet, and rows with a date that can't be read.</li><li><strong>Days you already recorded are never changed.</strong> Only empty days are filled.</li><li>Days after today are left out. Add future trips as plans instead.</li><li>Each imported day says in its history that it came from a file, so it never passes for a day you logged at the time.</li><li>A stay row can cover up to ten years, so a typo in a year can't flood your record.</li><li>A CSV exported from Sojournal comes back exactly as it was, including where you slept and the day flags.</li></ul>
+<h2 id="two-places-on-one-day">Two places on one day</h2>
+<p>Put two rows with the same date, one per place. A flight day from Toronto to Florida becomes one day with both places.</p>
+<h2 id="things-to-check-after-importing">Things to check after importing</h2>
+<ul><li><strong>Travel days and nights.</strong> Files from other sources don't say where you were at midnight or whether a day was transit or medical. If you follow the UK Statutory Residence Test (which counts midnights), open your travel days and set where you slept. Do the same for any transit or medical days that matter for your rule.</li><li><strong>Gaps.</strong> The record health card on Today lists the days that are still Not recorded. Sojournal never fills them with a guess.</li><li><strong>The count.</strong> Tap any number to see the day-by-day breakdown, and compare it with your old total. If they differ, the breakdown shows which days and why.</li></ul>
+<h2 id="coming-from">Coming from…</h2>
+<p><strong>A spreadsheet.</strong> Keep a date column (or from and to) and a place column, then save or export as CSV: <em>File → Save As → CSV</em> in Excel or Numbers, <em>File → Download → CSV</em> in Google Sheets. Extra columns don't hurt.</p>
+<p><strong>Another day-tracker app that exports CSV.</strong> Export from that app, open the file in a spreadsheet to check it has a date column and a place column, and import it. If it has many other columns and the import picks the wrong one, delete the extra columns and save again.</p>
+<p><strong>An app that only exports PDF, or nothing.</strong> Make a short spreadsheet with one row per trip (from, to, place) and import that. A year of trips is usually 10 to 20 rows. Or skip the file: in Sojournal a whole stay is two taps (pick the range, pick the place).</p>
+<p><strong>Paper, passport stamps, or the EES.</strong> Same as above: one row per stay. For Schengen, the official Entry/Exit System record is what the border guard sees, so check your rows against it if you can.</p>
+<p><strong>Google Maps Timeline.</strong> Not yet. Timeline export import is planned for version 1.1.</p>
+<p><strong>A photo library.</strong> Sojournal Pro can suggest days from photos you pick: when and where each was taken, read on your phone, camera photos only, nothing saved until you confirm. On Android the system photo picker may remove the location from photos; then Sojournal groups the photos by date and asks you for the place.</p>
+<h2 id="leaving-again">Leaving again</h2>
+<p>More → <strong>Export CSV</strong> writes every day with its place, where you slept, flags, source, when it was entered and edited, the note and how many evidence files it has. It's free and stays free. More → <strong>Back up to a file</strong> saves everything, evidence included if you add the zip.</p>
+<div class="stores ">
+<a class="store" href="https://play.google.com/store/apps/details?id=com.mufatech.sojournal"><small>Get it on</small><b>Google Play</b></a>
+</div>
+<p><em>Checked against the app on 22 October 2026. Sojournal counts days; it is not tax or legal advice.</em></p>
+</article>
+</div>
+</main>
+<footer><div class="wrap">
+<p class="disclaimer">Sojournal counts days. It is not tax or legal advice. Ask an adviser about your own situation.</p>
+<p>Sojournal is a residency and tax-day ledger for iPhone and Android, made by Mufatech. This site sets no cookies and loads nothing from other servers.</p>
+<nav aria-label="Main"><a href="../">Sojournal</a><a href="../schengen-calculator/">Schengen calculator</a><a href="../183-day-rule/">183-day rule</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="mailto:hello@mufatech.com">hello@mufatech.com</a></nav>
+</div></footer>
+</body>
+</html>

@@ -420,4 +420,22 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://mufa-tech.github.io/sojournal/tr/183-gun-kurali/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/183-day-rule/"/>
   </url>
+  <url>
+    <loc>https://mufa-tech.github.io/sojournal/ontario-153-days-ohip/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/ontario-153-days-ohip/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/ontario-153-days-ohip/"/>
+  </url>
+  <url>
+    <loc>https://mufa-tech.github.io/sojournal/substantial-presence-test/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/substantial-presence-test/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/substantial-presence-test/"/>
+  </url>
+  <url>
+    <loc>https://mufa-tech.github.io/sojournal/switch/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/switch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/switch/"/>
+  </url>
 </urlset>
