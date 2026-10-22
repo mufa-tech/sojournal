@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mufa-tech.github.io/sojournal/sitemap.xml

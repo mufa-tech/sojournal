@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Schengen-Rechner 90/180: Aufenthaltstage kostenlos berechnen</title>
+<meta name="description" content="Kostenloser Schengen-Rechner 90/180. Tragen Sie Ihre Aufenthalte ein und sehen Sie genutzte Tage, Resttage und den letzten Ausreisetag. Läuft im Browser.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F0F3F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B111D" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mufa-tech.github.io/sojournal/de/schengen-rechner/">
+<link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<link rel="alternate" hreflang="de" href="https://mufa-tech.github.io/sojournal/de/schengen-rechner/">
+<link rel="alternate" hreflang="fr" href="https://mufa-tech.github.io/sojournal/fr/calculateur-schengen/">
+<link rel="alternate" hreflang="nl" href="https://mufa-tech.github.io/sojournal/nl/schengen-calculator/">
+<link rel="alternate" hreflang="it" href="https://mufa-tech.github.io/sojournal/it/calcolatore-schengen/">
+<link rel="alternate" hreflang="es" href="https://mufa-tech.github.io/sojournal/es/calculadora-schengen/">
+<link rel="alternate" hreflang="tr" href="https://mufa-tech.github.io/sojournal/tr/schengen-hesaplama/">
+<link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<link rel="icon" href="../../assets/mark.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/icon-180.png">
+<link rel="preload" href="../../assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sojournal">
+<meta property="og:title" content="Schengen-Rechner 90/180: Aufenthaltstage kostenlos berechnen">
+<meta property="og:description" content="Kostenloser Schengen-Rechner 90/180. Tragen Sie Ihre Aufenthalte ein und sehen Sie genutzte Tage, Resttage und den letzten Ausreisetag. Läuft im Browser.">
+<meta property="og:url" content="https://mufa-tech.github.io/sojournal/de/schengen-rechner/">
+<meta property="og:image" content="https://mufa-tech.github.io/sojournal/assets/og-de.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="../../de/"><img src="../../assets/mark.svg" alt="" width="30" height="30">Sojournal</a>
+<nav class="main" aria-label="Hauptmenü"><a href="../../de/schengen-rechner/" aria-current="page">Schengen-Rechner</a><a href="../../de/183-tage-regel/">183-Tage-Regel</a><a href="../../de/support/">Hilfe</a></nav>
+<nav class="lang" aria-label="Sprache"><a href="../../schengen-calculator/" hreflang="en" lang="en" title="English">EN</a><a href="../../de/schengen-rechner/" hreflang="de" lang="de" title="Deutsch" aria-current="true">DE</a><a href="../../fr/calculateur-schengen/" hreflang="fr" lang="fr" title="Français">FR</a><a href="../../nl/schengen-calculator/" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="../../it/calcolatore-schengen/" hreflang="it" lang="it" title="Italiano">IT</a><a href="../../es/calculadora-schengen/" hreflang="es" lang="es" title="Español">ES</a><a href="../../tr/schengen-hesaplama/" hreflang="tr" lang="tr" title="Türkçe">TR</a></nav>
+<details class="langpick"><summary aria-label="Sprache: Deutsch"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18"/></svg>DE</summary><nav aria-label="Sprache"><a href="../../schengen-calculator/" hreflang="en" lang="en">English</a><a href="../../de/schengen-rechner/" hreflang="de" lang="de" aria-current="true">Deutsch</a><a href="../../fr/calculateur-schengen/" hreflang="fr" lang="fr">Français</a><a href="../../nl/schengen-calculator/" hreflang="nl" lang="nl">Nederlands</a><a href="../../it/calcolatore-schengen/" hreflang="it" lang="it">Italiano</a><a href="../../es/calculadora-schengen/" hreflang="es" lang="es">Español</a><a href="../../tr/schengen-hesaplama/" hreflang="tr" lang="tr">Türkçe</a></nav></details>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<h1>Schengen-Rechner 90/180</h1>
+<p class="lead">Tragen Sie Ihre Aufenthalte im Schengen-Raum ein. Sie sehen die genutzten Tage in den 180 Tagen bis zu einem Stichtag, die verbleibenden Tage, den letzten Ausreisetag für eine geplante Reise und jede Überschreitung.</p>
+<p class="note">Läuft in Ihrem Browser. Ihre Eingaben werden weder gesendet noch gespeichert.</p>
+<div id="calc-nojs" class="callout"><p>Dieser Rechner braucht JavaScript. Alles läuft auf dieser Seite, nichts wird gesendet.</p></div>
+<div class="calc" id="calc-app" hidden>
+<form id="calc-form" novalidate>
+<fieldset class="panel">
+<legend>Ihre Aufenthalte</legend>
+<p class="small">Eine Zeile pro Aufenthalt. Einreise- und Ausreisetag zählen beide als Tage im Schengen-Raum.</p>
+<ol class="stays" id="stays"></ol>
+<div class="actions">
+<button type="button" class="btn" id="add"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Aufenthalt hinzufügen</button>
+<button type="button" class="btn quiet" id="example">Beispiel der EU-Kommission laden</button>
+<button type="button" class="btn quiet" id="clear">Alles löschen</button>
+</div>
+</fieldset>
+<fieldset class="panel">
+<legend>Zu prüfende Daten</legend>
+<div class="dates">
+<div class="field"><label for="asof">Zählen bis</label><input type="date" id="asof" required aria-describedby="asof-hint asof-err"><span class="hint" id="asof-hint">An diesem Tag endet der 180-Tage-Zeitraum. Standard ist heute.</span><span class="err" id="asof-err" hidden></span></div>
+<div class="field"><label for="plan">Geplante Einreise</label><input type="date" id="plan" aria-describedby="plan-hint"><span class="hint" id="plan-hint">Optional. Zeigt, wie lange Sie ab diesem Tag bleiben dürfen.</span></div>
+</div>
+<details class="visa" id="visa">
+<summary>Ich reise mit einem Schengen-Visum (Typ C)</summary>
+<p class="small">Übernehmen Sie die Daten von Ihrer Visummarke. Tage ohne Visum zählen trotzdem für 90/180.</p>
+<div class="visa-grid">
+<div class="field"><label for="visa-from">Gültig ab</label><input type="date" id="visa-from"></div>
+<div class="field"><label for="visa-until">Gültig bis</label><input type="date" id="visa-until"></div>
+<div class="field"><label for="visa-duration">Aufenthaltsdauer (Tage)</label><input type="number" id="visa-duration" inputmode="numeric" min="1" max="90" step="1"></div>
+<div class="field"><label for="visa-entries">Anzahl der Einreisen</label><select id="visa-entries"><option value="1">1</option><option value="2">2</option><option value="MULT" selected>MULT</option></select></div>
+</div>
+<p class="err" id="visa-err" role="alert" hidden></p>
+</details>
+</fieldset>
+</form>
+<section class="results" aria-labelledby="res-h">
+<h2 id="res-h" class="sr">Ergebnis</h2>
+<div id="res"></div>
+<p id="live" class="sr" aria-live="polite"></p>
+<aside class="card app-note" aria-labelledby="app-h">
+<h3 id="app-h">Soll sich jemand Ihre Reisen merken?</h3>
+<p>Sojournal merkt sich Ihre Reisen und warnt Sie, bevor Sie zu lange bleiben. Offline, ohne Konto.</p>
+<!-- TODO(store links): #play and #appstore are placeholders. Set PLAY and APP_STORE in tools/site/build.mjs on release day. -->
+<div class="stores ">
+<a class="store" href="#play"><small>Jetzt bei</small><b>Google Play</b></a>
+<a class="store" href="#appstore"><small>Laden im</small><b>App Store</b></a>
+</div>
+</aside>
+</section>
+</div>
+<template id="stay-tpl"><li class="stay">
+<p class="stay-title"></p>
+<div class="field"><label data-for="entry">Einreise</label><input type="date" name="entry"></div>
+<div class="field"><label data-for="exit">Ausreise</label><input type="date" name="exit"><span class="hint">Leer lassen, wenn Sie noch dort sind.</span></div>
+<div class="field country"><label data-for="country">Land</label><select name="country"><option value="SCHENGEN">Schengen-Raum (beliebiger Staat)</option>
+<optgroup label="Schengen-Staaten"><option value="BE">Belgien</option><option value="BG">Bulgarien</option><option value="DK">Dänemark</option><option value="DE">Deutschland</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GR">Griechenland</option><option value="IS">Island</option><option value="IT">Italien</option><option value="HR">Kroatien</option><option value="LV">Lettland</option><option value="LI">Liechtenstein</option><option value="LT">Litauen</option><option value="LU">Luxemburg</option><option value="MT">Malta</option><option value="MC">Monaco</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">Österreich</option><option value="PL">Polen</option><option value="PT">Portugal</option><option value="RO">Rumänien</option><option value="SM">San Marino</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="SK">Slowakei</option><option value="SI">Slowenien</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="HU">Ungarn</option><option value="VA">Vatikanstadt</option></optgroup>
+<optgroup label="Nicht im Schengen-Raum"><option value="AL">Albanien</option><option value="AD">Andorra</option><option value="BA">Bosnien und Herzegowina</option><option value="IE">Irland</option><option value="XK">Kosovo</option><option value="ME">Montenegro</option><option value="MK">Nordmazedonien</option><option value="RS">Serbien</option><option value="TR">Türkei</option><option value="UA">Ukraine</option><option value="GB">Vereinigtes Königreich</option><option value="CY">Zypern</option></optgroup></select></div>
+<button type="button" class="btn icon remove"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m6.5 6.5 11 11M17.5 6.5l-11 11"/></svg></button>
+<p class="err" role="alert" hidden></p>
+</li></template>
+<script type="application/json" id="calc-i18n">{"days":{"one":"{n} Tag","other":"{n} Tage"},"empty":"Tragen Sie einen Aufenthalt ein, um Ihre Zählung zu sehen.","used":"Genutzte Tage","usedSub":"Vom {start} bis {end}","left":"Verbleibende Tage","leftSub":"In diesem Zeitraum","statusOk":"Innerhalb der Grenze","statusFull":"Grenze erreicht","statusOver":"Grenze überschritten","nextFreed":"Nächster frei werdender Tag: {date}. Dann fällt der älteste gezählte Tag aus dem Zeitraum.","stayOn":"Wenn Sie am {date} im Schengen-Raum sind und bleiben, ist Ihr letzter erlaubter Tag der {last}.","planTitle":"Geplante Reise","planOk":"Einreise am {entry}: Sie dürfen {days} bleiben, bis {exit}.","planNone":"Bei Einreise am {entry} bleiben Ihnen keine Tage.","planEarliest":"Früheste Einreise mit freien Tagen: {date} ({days}).","planFull":"Früheste Einreise für volle 90 Tage: {date}.","planNotFound":"In den nächsten 12 Monaten gibt es kein Einreisedatum mit freien Tagen, wegen späterer Aufenthalte in Ihrer Liste.","planReplaced":"Aufenthalte in Ihrer Liste ab dem {entry} bleiben bei dieser Planung außen vor.","visaCap":"Ihr Visum erlaubt ab dem {entry} {days}, bis {exit}.","visaNotValid":"Ihr Visum ist am {entry} nicht gültig.","visaNoEntries":"Ihr Visum hat keine Einreisen mehr übrig.","visaReason":{"validityEnds":"Das Visum endet am {date}.","durationLeft":"Verbleibende Tage laut Visum: {days}."},"overTitle":"Überschreitungen","overNone":"Keine Überschreitung bis {date}.","overRun":"{from} bis {to}: {days} zu viel","overFuture":"Spätere geplante Aufenthalte in Ihrer Liste würden die Grenze überschreiten:","visaTitle":"Ihr Visum","visaUsed":"Innerhalb der Gültigkeitsdauer genutzt: {used}. Erlaubt: {duration}.","visaUsed90":"Auf dem Visum stehen 90 Tage, also setzt die 90/180-Regel die Grenze.","visaOk":"Kein Verstoß gegen das Visum gefunden.","breach":{"validityExpired":"Aufenthalt nach Ablauf des Visums","durationExceeded":"Mehr Tage, als das Visum erlaubt","tooManyEntries":"Mehr Einreisen, als das Visum erlaubt"},"warnPreAccession":"Nicht gezählt: {days} in Bulgarien, Rumänien oder Kroatien vor deren Schengen-Beitritt.","warnOutside":"Tage in {places} werden nicht gezählt, sie gehören nicht zum Schengen-Raum.","warnAndorra":"Andorra liegt außerhalb des Schengen-Raums, und bei der Fahrt über die Straße wird die Ausreise im EES womöglich nicht erfasst. Bewahren Sie einen Nachweis auf, dass Sie Frankreich oder Spanien verlassen haben.","breakdownTitle":"Tag für Tag","breakdownRow":"{from} bis {to}, {place}: {days} im Zeitraum","ongoing":"noch dort","errors":{"entryMissing":"Bitte das Einreisedatum eintragen.","entryInvalid":"Die Einreise ist kein gültiges Datum.","exitInvalid":"Die Ausreise ist kein gültiges Datum.","exitBeforeEntry":"Die Ausreise liegt vor der Einreise.","asOf":"Bitte ein Datum wählen, bis zu dem gezählt wird.","visaDatesMissing":"Bitte beide Visadaten eintragen.","visaUntilBeforeFrom":"„Gültig bis“ liegt vor „Gültig ab“.","visaDurationInvalid":"Die Aufenthaltsdauer muss eine ganze Zahl von 1 bis 90 sein."},"listSep":", ","stay":"Aufenthalt {n}","remove":"Aufenthalt {n} entfernen","area":"Schengen-Raum (beliebiger Staat)","countries":{"BE":"Belgien","BG":"Bulgarien","DK":"Dänemark","DE":"Deutschland","EE":"Estland","FI":"Finnland","FR":"Frankreich","GR":"Griechenland","IS":"Island","IT":"Italien","HR":"Kroatien","LV":"Lettland","LI":"Liechtenstein","LT":"Litauen","LU":"Luxemburg","MT":"Malta","MC":"Monaco","NL":"Niederlande","NO":"Norwegen","AT":"Österreich","PL":"Polen","PT":"Portugal","RO":"Rumänien","SM":"San Marino","SE":"Schweden","CH":"Schweiz","SK":"Slowakei","SI":"Slowenien","ES":"Spanien","CZ":"Tschechien","HU":"Ungarn","VA":"Vatikanstadt","AL":"Albanien","AD":"Andorra","BA":"Bosnien und Herzegowina","IE":"Irland","XK":"Kosovo","ME":"Montenegro","MK":"Nordmazedonien","RS":"Serbien","TR":"Türkei","UA":"Ukraine","GB":"Vereinigtes Königreich","CY":"Zypern"}}</script>
+
+<div class="prose">
+<h2 id="method">So funktioniert die 90/180-Regel</h2>
+<h3 class="h3-serif">Die Regel</h3>
+<p>Wenn Sie für einen kurzen Aufenthalt kein Visum brauchen oder ein Visum für den kurzfristigen Aufenthalt (Typ C) haben, dürfen Sie sich bis zu 90 Tage innerhalb von 180 Tagen im Schengen-Raum aufhalten. Schauen Sie an jedem Tag Ihres Aufenthalts auf die 180 Tage zurück, die an diesem Tag enden: Höchstens 90 davon dürfen Tage im Schengen-Raum sein. Tag 91 ist eine Überschreitung.</p><p>Der Zeitraum rollt mit. Es gibt kein festes Startdatum und keinen Neustart bei der Ausreise. Alte Tage fallen einzeln heraus.</p>
+<h3 class="h3-serif">Einreise- und Ausreisetag</h3>
+<p>Der Tag der Einreise und der Tag der Ausreise sind beide volle Tage im Schengen-Raum. Ein Tagesausflug ist ein Tag. Ein Tag in zwei Schengen-Staaten bleibt ein Tag, und Reisen zwischen Schengen-Staaten zählen nicht extra.</p>
+<h3 class="h3-serif">Welche Länder zählen</h3>
+<p>29 Staaten: Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Island, Italien, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, die Niederlande, Norwegen, Österreich, Polen, Portugal, Rumänien, Schweden, die Schweiz, die Slowakei, Slowenien, Spanien, Tschechien und Ungarn.</p><ul><li>Kroatien zählt ab dem 1. Januar 2023. Bulgarien und Rumänien zählen ab dem 31. März 2024; die Kontrollen an den Landgrenzen endeten am 1. Januar 2025, maßgeblich für die Zählung ist aber März 2024.</li><li>Irland und Zypern sind EU-Mitglieder, gehören aber nicht zum Schengen-Raum. Tage dort zählen nicht.</li><li>Monaco, San Marino und die Vatikanstadt haben offene Grenzen, deshalb zählt dieser Rechner sie mit. Andorra hat Grenzkontrollen und zählt nicht.</li></ul>
+<h3 class="h3-serif">Eine Reise planen</h3>
+<p>Die Planung folgt der Methode der EU-Kommission: Sie behält Ihre Aufenthalte vor dem geplanten Einreisedatum und fügt Tag für Tag hinzu, wobei für jeden Tag der 180-Tage-Zeitraum geprüft wird. Weil alte Tage herausfallen, während Sie dort sind, können Sie oft länger bleiben als „90 minus genutzte Tage“.</p>
+<h3 class="h3-serif">Mit Visum</h3>
+<p>Ein C-Visum setzt eigene Grenzen: Jeder Tag muss innerhalb der Gültigkeitsdauer liegen, die Tage in diesem Zeitraum dürfen die „Aufenthaltsdauer“ auf der Visummarke nicht überschreiten, und ein Visum für eine Einreise erlaubt genau eine Einreise. Tage ohne Visum oder mit einem früheren Visum zählen weiter für 90/180, und ein neues Visum setzt den Zeitraum nicht zurück.</p>
+<h3 class="h3-serif">Das EES</h3>
+<p>Das Einreise-/Ausreisesystem (EES) erfasst Ihre Ein- und Ausreisen an der Schengen-Außengrenze, und die Grenzbeamten zählen danach. Reisen zwischen Schengen-Staaten werden nicht erfasst. Weichen Ihre eigene Zählung und das EES voneinander ab, sieht die Grenze den Eintrag im EES.</p>
+<h3 class="h3-serif">Was dieser Rechner nicht abdeckt</h3>
+<p>Aufenthaltstitel und nationale Visa (Typ D), deren Tage nicht zählen; nationale Verlängerungen; bilaterale Abkommen, nach denen manche Staatsangehörige in einem Land länger bleiben dürfen; und die alte Regel „6 Monate ab der ersten Einreise“, die für brasilianische Staatsangehörige noch gilt. Klären Sie diese Fälle mit dem jeweiligen Land.</p>
+<h2>Offizielle Quellen</h2>
+<ol class="sources"><li><a href="https://eur-lex.europa.eu/eli/reg/2016/399/oj" rel="noopener">Verordnung (EU) 2016/399, Schengener Grenzkodex, Art. 6</a></li><li><a href="https://home-affairs.ec.europa.eu/policies/schengen/border-crossing/short-stay-calculator_en" rel="noopener">Europäische Kommission: Rechner für Kurzaufenthalte</a></li><li><a href="https://ec.europa.eu/assets/home/visa-calculator/docs/short_stay_schengen_calculator_user_manual_en.pdf" rel="noopener">Benutzerhandbuch zum Rechner der Kommission (PDF, Englisch)</a></li><li><a href="https://travel-europe.europa.eu/ees_en" rel="noopener">Einreise-/Ausreisesystem: offizielle Seite für Reisende</a></li><li><a href="https://eur-lex.europa.eu/eli/reg/2009/810/oj" rel="noopener">Visakodex, Verordnung (EG) Nr. 810/2009, Art. 24</a></li><li><a href="https://eur-lex.europa.eu/eli/dec/2024/210/oj" rel="noopener">Beschluss (EU) 2024/210 des Rates (Bulgarien, Rumänien)</a></li></ol>
+<p class="callout">Dieser Rechner zählt Tage auf Grundlage Ihrer Eingaben. Das ist keine Rechtsberatung, und die Grenzbehörden entscheiden nach ihren eigenen Aufzeichnungen. Wenn Sie nahe an der Grenze sind, prüfen Sie mit dem offiziellen Rechner oder fragen Sie bei der Botschaft nach.</p>
+</div>
+</div>
+</main>
+<footer><div class="wrap">
+<p class="disclaimer">Sojournal zählt Tage. Das ist keine Steuer- oder Rechtsberatung. Fragen Sie zu Ihrem eigenen Fall einen Steuerberater.</p>
+<p>Sojournal ist ein Tagebuch für Aufenthaltstage und Steuertage für iPhone und Android, entwickelt von Mufatech. Diese Website setzt keine Cookies und lädt nichts von fremden Servern.</p>
+<nav aria-label="Hauptmenü"><a href="../../de/">Sojournal</a><a href="../../de/schengen-rechner/">Schengen-Rechner</a><a href="../../de/183-tage-regel/">183-Tage-Regel</a><a href="../../de/support/">Hilfe</a><a href="../../de/privacy/">Datenschutz</a><a href="mailto:hello@mufatech.com">hello@mufatech.com</a></nav>
+</div></footer>
+<script type="module" src="../../assets/calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Schengen calculator 90/180: count your days, free</title>
+<meta name="description" content="Free Schengen 90/180 calculator. Enter your stays to see days used, days left and your latest exit date. Runs in your browser, nothing is sent.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F0F3F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B111D" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<link rel="alternate" hreflang="de" href="https://mufa-tech.github.io/sojournal/de/schengen-rechner/">
+<link rel="alternate" hreflang="fr" href="https://mufa-tech.github.io/sojournal/fr/calculateur-schengen/">
+<link rel="alternate" hreflang="nl" href="https://mufa-tech.github.io/sojournal/nl/schengen-calculator/">
+<link rel="alternate" hreflang="it" href="https://mufa-tech.github.io/sojournal/it/calcolatore-schengen/">
+<link rel="alternate" hreflang="es" href="https://mufa-tech.github.io/sojournal/es/calculadora-schengen/">
+<link rel="alternate" hreflang="tr" href="https://mufa-tech.github.io/sojournal/tr/schengen-hesaplama/">
+<link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<link rel="preload" href="../assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sojournal">
+<meta property="og:title" content="Schengen calculator 90/180: count your days, free">
+<meta property="og:description" content="Free Schengen 90/180 calculator. Enter your stays to see days used, days left and your latest exit date. Runs in your browser, nothing is sent.">
+<meta property="og:url" content="https://mufa-tech.github.io/sojournal/schengen-calculator/">
+<meta property="og:image" content="https://mufa-tech.github.io/sojournal/assets/og-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="../"><img src="../assets/mark.svg" alt="" width="30" height="30">Sojournal</a>
+<nav class="main" aria-label="Main"><a href="../schengen-calculator/" aria-current="page">Schengen calculator</a><a href="../183-day-rule/">183-day rule</a><a href="../support/">Support</a></nav>
+<nav class="lang" aria-label="Language"><a href="../schengen-calculator/" hreflang="en" lang="en" title="English" aria-current="true">EN</a><a href="../de/schengen-rechner/" hreflang="de" lang="de" title="Deutsch">DE</a><a href="../fr/calculateur-schengen/" hreflang="fr" lang="fr" title="Français">FR</a><a href="../nl/schengen-calculator/" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="../it/calcolatore-schengen/" hreflang="it" lang="it" title="Italiano">IT</a><a href="../es/calculadora-schengen/" hreflang="es" lang="es" title="Español">ES</a><a href="../tr/schengen-hesaplama/" hreflang="tr" lang="tr" title="Türkçe">TR</a></nav>
+<details class="langpick"><summary aria-label="Language: English"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18"/></svg>EN</summary><nav aria-label="Language"><a href="../schengen-calculator/" hreflang="en" lang="en" aria-current="true">English</a><a href="../de/schengen-rechner/" hreflang="de" lang="de">Deutsch</a><a href="../fr/calculateur-schengen/" hreflang="fr" lang="fr">Français</a><a href="../nl/schengen-calculator/" hreflang="nl" lang="nl">Nederlands</a><a href="../it/calcolatore-schengen/" hreflang="it" lang="it">Italiano</a><a href="../es/calculadora-schengen/" hreflang="es" lang="es">Español</a><a href="../tr/schengen-hesaplama/" hreflang="tr" lang="tr">Türkçe</a></nav></details>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<h1>Schengen calculator 90/180</h1>
+<p class="lead">Enter your stays in the Schengen area. You get the days used in the 180 days up to a date, the days left, the latest exit for a planned trip, and any overstay.</p>
+<p class="note">Runs in your browser. Nothing you type is sent anywhere or saved.</p>
+<div id="calc-nojs" class="callout"><p>This calculator needs JavaScript. Everything runs on this page; nothing is sent.</p></div>
+<div class="calc" id="calc-app" hidden>
+<form id="calc-form" novalidate>
+<fieldset class="panel">
+<legend>Your stays</legend>
+<p class="small">One row per stay. The entry and exit days both count as days in the area.</p>
+<ol class="stays" id="stays"></ol>
+<div class="actions">
+<button type="button" class="btn" id="add"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Add a stay</button>
+<button type="button" class="btn quiet" id="example">Load the Commission’s example</button>
+<button type="button" class="btn quiet" id="clear">Clear all</button>
+</div>
+</fieldset>
+<fieldset class="panel">
+<legend>Dates to check</legend>
+<div class="dates">
+<div class="field"><label for="asof">Count up to</label><input type="date" id="asof" required aria-describedby="asof-hint asof-err"><span class="hint" id="asof-hint">The 180-day window ends on this day. Today by default.</span><span class="err" id="asof-err" hidden></span></div>
+<div class="field"><label for="plan">Planned entry</label><input type="date" id="plan" aria-describedby="plan-hint"><span class="hint" id="plan-hint">Optional. Shows how long you can stay from this day.</span></div>
+</div>
+<details class="visa" id="visa">
+<summary>I travel on a Schengen visa (type C)</summary>
+<p class="small">Copy the dates from your visa sticker. Days without a visa still count toward 90/180.</p>
+<div class="visa-grid">
+<div class="field"><label for="visa-from">Valid from</label><input type="date" id="visa-from"></div>
+<div class="field"><label for="visa-until">Valid until</label><input type="date" id="visa-until"></div>
+<div class="field"><label for="visa-duration">Duration of stay (days)</label><input type="number" id="visa-duration" inputmode="numeric" min="1" max="90" step="1"></div>
+<div class="field"><label for="visa-entries">Number of entries</label><select id="visa-entries"><option value="1">1</option><option value="2">2</option><option value="MULT" selected>MULT</option></select></div>
+</div>
+<p class="err" id="visa-err" role="alert" hidden></p>
+</details>
+</fieldset>
+</form>
+<section class="results" aria-labelledby="res-h">
+<h2 id="res-h" class="sr">Result</h2>
+<div id="res"></div>
+<p id="live" class="sr" aria-live="polite"></p>
+<aside class="card app-note" aria-labelledby="app-h">
+<h3 id="app-h">Want this to remember your trips?</h3>
+<p>Sojournal remembers your trips and warns you before you overstay. Offline, no account.</p>
+<!-- TODO(store links): #play and #appstore are placeholders. Set PLAY and APP_STORE in tools/site/build.mjs on release day. -->
+<div class="stores ">
+<a class="store" href="#play"><small>Get it on</small><b>Google Play</b></a>
+<a class="store" href="#appstore"><small>Download on the</small><b>App Store</b></a>
+</div>
+</aside>
+</section>
+</div>
+<template id="stay-tpl"><li class="stay">
+<p class="stay-title"></p>
+<div class="field"><label data-for="entry">Entry</label><input type="date" name="entry"></div>
+<div class="field"><label data-for="exit">Exit</label><input type="date" name="exit"><span class="hint">Leave empty if you are still there.</span></div>
+<div class="field country"><label data-for="country">Country</label><select name="country"><option value="SCHENGEN">Schengen area (any state)</option>
+<optgroup label="Schengen states"><option value="AT">Austria</option><option value="BE">Belgium</option><option value="BG">Bulgaria</option><option value="HR">Croatia</option><option value="CZ">Czechia</option><option value="DK">Denmark</option><option value="EE">Estonia</option><option value="FI">Finland</option><option value="FR">France</option><option value="DE">Germany</option><option value="GR">Greece</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IT">Italy</option><option value="LV">Latvia</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MT">Malta</option><option value="MC">Monaco</option><option value="NL">Netherlands</option><option value="NO">Norway</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="RO">Romania</option><option value="SM">San Marino</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="ES">Spain</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="VA">Vatican City</option></optgroup>
+<optgroup label="Not in Schengen"><option value="AL">Albania</option><option value="AD">Andorra</option><option value="BA">Bosnia &amp; Herzegovina</option><option value="CY">Cyprus</option><option value="IE">Ireland</option><option value="XK">Kosovo</option><option value="ME">Montenegro</option><option value="MK">North Macedonia</option><option value="RS">Serbia</option><option value="TR">Türkiye</option><option value="UA">Ukraine</option><option value="GB">United Kingdom</option></optgroup></select></div>
+<button type="button" class="btn icon remove"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m6.5 6.5 11 11M17.5 6.5l-11 11"/></svg></button>
+<p class="err" role="alert" hidden></p>
+</li></template>
+<script type="application/json" id="calc-i18n">{"days":{"one":"{n} day","other":"{n} days"},"empty":"Add a stay to see your count.","used":"Days used","usedSub":"From {start} to {end}","left":"Days left","leftSub":"In this window","statusOk":"Within the limit","statusFull":"Limit reached","statusOver":"Over the limit","nextFreed":"Next day back: {date}. That is when the oldest counted day leaves the window.","stayOn":"If you are in the area on {date} and stay, your last allowed day is {last}.","planTitle":"Planned trip","planOk":"Enter on {entry}: you can stay {days}, until {exit}.","planNone":"Entering on {entry} leaves you no days.","planEarliest":"Earliest entry with days available: {date} ({days}).","planFull":"Earliest entry for a full 90 days: {date}.","planNotFound":"No entry date with free days in the next 12 months, because of later stays in your list.","planReplaced":"Stays in your list from {entry} on are left out of this plan.","visaCap":"Your visa allows {days} from {entry}, until {exit}.","visaNotValid":"Your visa is not valid on {entry}.","visaNoEntries":"Your visa has no entries left.","visaReason":{"validityEnds":"The visa ends on {date}.","durationLeft":"Days left on the sticker: {days}."},"overTitle":"Overstays","overNone":"No overstay up to {date}.","overRun":"{from} to {to}: {days} over the limit","overFuture":"Planned stays later in your list would go over the limit:","visaTitle":"Your visa","visaUsed":"{used} of {duration} used inside the validity period.","visaUsed90":"The sticker shows 90 days, so the 90/180 rule sets the limit.","visaOk":"No breach of the visa found.","breach":{"validityExpired":"Stayed after the visa ended","durationExceeded":"More days than the sticker allows","tooManyEntries":"More entries than the visa allows"},"warnPreAccession":"{days} in Bulgaria, Romania or Croatia before they joined Schengen are not counted.","warnOutside":"Days in {places} are not counted: not part of the Schengen area.","warnAndorra":"Andorra is outside Schengen, and a road crossing may leave no exit record in the EES. Keep proof that you left France or Spain.","breakdownTitle":"Day by day","breakdownRow":"{from} to {to}, {place}: {days} in the window","ongoing":"still there","errors":{"entryMissing":"Add the entry date.","entryInvalid":"Entry is not a valid date.","exitInvalid":"Exit is not a valid date.","exitBeforeEntry":"Exit is before entry.","asOf":"Pick a date to count up to.","visaDatesMissing":"Add both visa dates.","visaUntilBeforeFrom":"“Valid until” is before “Valid from”.","visaDurationInvalid":"Duration must be a whole number from 1 to 90."},"listSep":", ","stay":"Stay {n}","remove":"Remove stay {n}","area":"Schengen area (any state)","countries":{"AT":"Austria","BE":"Belgium","BG":"Bulgaria","HR":"Croatia","CZ":"Czechia","DK":"Denmark","EE":"Estonia","FI":"Finland","FR":"France","DE":"Germany","GR":"Greece","HU":"Hungary","IS":"Iceland","IT":"Italy","LV":"Latvia","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MT":"Malta","MC":"Monaco","NL":"Netherlands","NO":"Norway","PL":"Poland","PT":"Portugal","RO":"Romania","SM":"San Marino","SK":"Slovakia","SI":"Slovenia","ES":"Spain","SE":"Sweden","CH":"Switzerland","VA":"Vatican City","AL":"Albania","AD":"Andorra","BA":"Bosnia & Herzegovina","CY":"Cyprus","IE":"Ireland","XK":"Kosovo","ME":"Montenegro","MK":"North Macedonia","RS":"Serbia","TR":"Türkiye","UA":"Ukraine","GB":"United Kingdom"}}</script>
+
+<div class="prose">
+<h2 id="method">How the 90/180 rule works</h2>
+<h3 class="h3-serif">The rule</h3>
+<p>If you don’t need a visa for a short stay, or hold a short-stay (C) visa, you may spend up to 90 days in any 180-day period in the Schengen area. On each day of your stay, look back over the 180 days that end that day: no more than 90 of them may be days in the area. Day 91 is an overstay.</p><p>The window rolls. There is no fixed start date and no reset when you leave, so old days drop out one by one.</p>
+<h3 class="h3-serif">Entry and exit days</h3>
+<p>The day you enter and the day you leave are both full days in the area. A day trip is one day. A day spent in two Schengen countries is still one day, and travel between Schengen countries doesn’t count separately.</p>
+<h3 class="h3-serif">Which countries count</h3>
+<p>29 states: Austria, Belgium, Bulgaria, Croatia, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, the Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden and Switzerland.</p><ul><li>Croatia counts from 1 January 2023. Bulgaria and Romania count from 31 March 2024; land checks ended on 1 January 2025, but the counting date is March 2024.</li><li>Ireland and Cyprus are EU members but not in Schengen. Days there don’t count.</li><li>Monaco, San Marino and Vatican City have open borders, so this calculator counts them. Andorra has border checks and doesn’t count.</li></ul>
+<h3 class="h3-serif">Planning a trip</h3>
+<p>The planner follows the European Commission’s method: it keeps your stays before the planned entry date and adds one day at a time, checking the 180-day window on each day. Because old days drop out while you are there, you can often stay longer than “90 minus days used”.</p>
+<h3 class="h3-serif">Visa holders</h3>
+<p>A C visa adds its own limits: every day must fall inside the validity dates, the total days inside that period can’t exceed the “duration of stay” on the sticker, and a single-entry visa allows one entry. Days spent visa-free or on an earlier visa still count toward 90/180, and a new visa doesn’t reset the window.</p>
+<h3 class="h3-serif">The EES</h3>
+<p>The Entry/Exit System records your entries and exits at the external border, and border guards count from it. Travel between Schengen states isn’t recorded. If your own count and the EES disagree, the EES record is what the border sees.</p>
+<h3 class="h3-serif">What this calculator doesn’t cover</h3>
+<p>Residence permits and long-stay (D) visas, whose days don’t count; national extensions; bilateral agreements that let some nationalities stay longer in one country; and the old “6 months from first entry” rule that still applies to Brazilian citizens. Check those with the country concerned.</p>
+<h2>Official sources</h2>
+<ol class="sources"><li><a href="https://eur-lex.europa.eu/eli/reg/2016/399/oj" rel="noopener">Regulation (EU) 2016/399, Schengen Borders Code, Art. 6</a></li><li><a href="https://home-affairs.ec.europa.eu/policies/schengen/border-crossing/short-stay-calculator_en" rel="noopener">European Commission: short-stay calculator</a></li><li><a href="https://ec.europa.eu/assets/home/visa-calculator/docs/short_stay_schengen_calculator_user_manual_en.pdf" rel="noopener">Commission calculator user manual (PDF)</a></li><li><a href="https://travel-europe.europa.eu/ees_en" rel="noopener">Entry/Exit System: official traveller site</a></li><li><a href="https://eur-lex.europa.eu/eli/reg/2009/810/oj" rel="noopener">Visa Code, Regulation (EC) No 810/2009, Art. 24</a></li><li><a href="https://eur-lex.europa.eu/eli/dec/2024/210/oj" rel="noopener">Council Decision (EU) 2024/210 (Bulgaria, Romania)</a></li></ol>
+<p class="callout">This calculator counts days from what you enter. It is not legal advice, and border authorities decide on the basis of their own records. Check with the official calculator or the embassy if you are close to the limit.</p>
+</div>
+</div>
+</main>
+<footer><div class="wrap">
+<p class="disclaimer">Sojournal counts days. It is not tax or legal advice. Ask an adviser about your own situation.</p>
+<p>Sojournal is a residency and tax-day ledger for iPhone and Android, made by Mufatech. This site sets no cookies and loads nothing from other servers.</p>
+<nav aria-label="Main"><a href="../">Sojournal</a><a href="../schengen-calculator/">Schengen calculator</a><a href="../183-day-rule/">183-day rule</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="mailto:hello@mufatech.com">hello@mufatech.com</a></nav>
+</div></footer>
+<script type="module" src="../assets/calc.js"></script>
+</body>
+</html>
